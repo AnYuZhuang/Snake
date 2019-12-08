@@ -201,8 +201,8 @@ function stopGame() {
 }
 
 function sendDirectionImage() {
-  const apiUrl = '';
-  const predictionKey = '';
+  const apiUrl = 'https://anyuzhuang.cognitiveservices.azure.com/customvision/v3.0/Prediction/def1e88b-4848-42d1-a50d-b34be4cc1cf9/classify/iterations/operate_command/image';
+  const predictionKey = '4592ccad0cbd43958ea0cb382250d8dc';
 
   let context = snapshotCanvas.getContext('2d');
   context.drawImage(cameraPlayer, 0, 0, snapshotCanvas.width, snapshotCanvas.height);
