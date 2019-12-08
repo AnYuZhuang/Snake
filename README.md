@@ -1,2 +1,2 @@
 # Snake
-play snake name
+play snake game
